@@ -1,0 +1,51 @@
+# Common
+.idea
+/*.iml
+/.project
+*.local.php
+/nbproject
+report
+.platform_settings_migration_lock_common-java
+
+*.tmp
+*.swp
+*.pid
+*.log
+*.sem
+*~
+*.orig
+
+.DS_Store
+.gradle
+
+# Build artifacts
+/target/
+/opt
+/vendor
+/dist
+/*.deb
+/*.lintian
+pkg-src/usr/share/doc/*/changelog.gz
+pkg-src/DEBIAN/md5sums
+/?/
+/coverage/
+coverage.out
+
+# Want to not ignore these
+!.gitkeep
+!.keep
+
+# Ruby things
+db/*.sqlite3
+.env
+
+# Go-lang things
+/src/optanix.com/vendor
+/pkg/
+Gopkg.lock
+
+saws.scc
+
+#<CUSTOM_START>
+application-dev.properties
+#<CUSTOM_END>
